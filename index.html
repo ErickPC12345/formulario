@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estilos/estilo1.css">
+</head>
+<body>
+    <header>FORMULARIO</header>
+    <section>
+        <form action="/send/" method="post">
+            <input type="text" name="nombre" placeholder="Nombres y Apellidos" required><br>
+            <input type="email" name="correoorreo" placeholder="Correo" required><br>
+            <input type="number" name="edad" placeholder="Edad" min="15" max="50"  required> <br>
+            <input type="file" name="matricula" placeholder="Matricula" required><br>
+            <input type="tel" name="telefono" placeholder="Telefono" pattern="[0-9]{8,10}" maxlength="10" required>
+            <button type="submit">ENVIAR</button>
+
+        </form>      
+    </section>
+    
+</body>
+</html>
